@@ -1,4 +1,6 @@
+include!("demo/function_demo.rs");
+include!("demo/loop_demo.rs");
 fn main() {
-    let msg = "张延国";
-    println!("Hello, {}!", msg);
+    method_test();
+    loop_test();
 }
